@@ -5,6 +5,7 @@ This project focuses on classifying chess disease images into two categories: no
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Link to Dataset](#Dataset)
 - [Project Structure](#project-structure)
 - [Setup](#setup)
 - [Usage](#usage)
@@ -15,6 +16,11 @@ This project focuses on classifying chess disease images into two categories: no
 ## Introduction
 
 The Chess Disease Classification project leverages deep learning models to differentiate between normal and Adenocarcinoma chess images. This application is designed to aid medical professionals by providing a reliable automated classification tool. By integrating various tools and technologies, we ensure an end-to-end solution from data handling to model deployment.
+
+## Dataset
+
+Here is the link to the [Dataset](https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view).
+
 
 ## Project Structure
 
