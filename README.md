@@ -1,7 +1,3 @@
-Here's a draft for your `README.md`:
-
----
-
 # Chess Disease Classification
 
 This project focuses on classifying chess disease images into two categories: normal and Adenocarcinoma. Utilizing advanced machine learning techniques, we aim to provide accurate and efficient diagnosis support.
@@ -103,7 +99,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to modify this to better suit your project specifics!
