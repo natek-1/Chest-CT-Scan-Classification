@@ -25,11 +25,11 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="CTScanClassification",
+    name="cnnClassifier",
     version="0.0.1",
     author="Nathan Kuissi",
     author_email="nategabrielk@icloud.com",
-    description="A small python package for CNN app",
+    description="A small python package for CNN for chest disease classification",
     long_description=long_description,
     long_description_content="text/markdown",
     

@@ -97,6 +97,7 @@ chess-disease-classification/
 - **DVC:** For data version control and management.
 - **Jenkins:** For continuous integration and deployment.
 - **Flask:** For building the web application.
+- **Docker:** dockerize the application to facilitate deployment.
 
 ## Contributing
 
