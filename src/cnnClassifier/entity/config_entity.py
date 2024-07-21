@@ -24,3 +24,14 @@ class BaseModelConfig:
     weights: str
     learning_rate: float
 
+@dataclass(frozen=True)
+class TrainingConfig:
+    root_dir: Path
+    training_data_path: Path
+    pretrained_model_path: Path
+    model_filename: str
+    augmentation: bool
+    batch_size: int
+    epochs: int
+    image_size: List
+    
