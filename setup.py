@@ -24,15 +24,20 @@ def get_requirments(file_path:str)->List[str]:
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
+AUTHOR_USER_NAME="natek-1"
+REPO_NAME="Chest-CT-Scan-Classification"
+
+
 setup(
     name="cnnClassifier",
     version="0.0.1",
     author="Nathan Kuissi",
     author_email="nategabrielk@icloud.com",
     description="A small python package for CNN for chest disease classification",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     long_description=long_description,
     long_description_content="text/markdown",
-    
     install_requires=get_requirments("./requirements.txt"),
-    packages=find_packages()
+    package_dir={"": "src"},
+    packages=find_packages(where="src")
 )
