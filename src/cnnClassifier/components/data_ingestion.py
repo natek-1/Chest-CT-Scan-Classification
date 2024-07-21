@@ -3,7 +3,7 @@ import zipfile
 
 
 import gdown
-from cnnClassifier.config.configuration import DataIngestionConfig
+from cnnClassifier.entity.config_entity import DataIngestionConfig
 from cnnClassifier.logger import logging
 from cnnClassifier.exception import CustomException
 
