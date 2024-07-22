@@ -12,6 +12,13 @@ from cnnClassifier.exception import CustomException
 from cnnClassifier.entity.config_entity import EvaluationConfig
 from cnnClassifier.utils.common import save_json
 from cnnClassifier.logger import logging
+from dotenv import load_dotenv
+
+
+
+
+
+load_dotenv()
 
 class Evaluation:
 
@@ -83,6 +90,7 @@ class Evaluation:
             mlflow.log_metrics(self.scores)
 
             if tracking_url_type_store != "file":
-                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                mlflow.keras.log_model(self.model, "model"
+                , registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
