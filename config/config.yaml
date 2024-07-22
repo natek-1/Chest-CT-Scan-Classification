@@ -16,4 +16,8 @@ training:
   pretrained_model_path: artifacts/base_model/base_model_updated.h5
   model_filename: model.h5
 
+evaluation:
+  model_path: artifacts/training/model.h5
+  training_data_path: artifacts/data_ingestion/Chest-CT-Scan-data
+
 
