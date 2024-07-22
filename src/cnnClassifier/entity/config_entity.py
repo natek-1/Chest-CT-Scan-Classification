@@ -34,4 +34,14 @@ class TrainingConfig:
     batch_size: int
     epochs: int
     image_size: List
-    
+
+
+@dataclass
+class EvaluationConfig:
+    model_path: Path
+    training_data_path: Path
+    all_params: dict
+    mlflow_uri: str
+    image_size: List
+    batch_size: int
+

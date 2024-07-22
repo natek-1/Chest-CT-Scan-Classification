@@ -19,5 +19,6 @@ training:
 evaluation:
   model_path: artifacts/training/model.h5
   training_data_path: artifacts/data_ingestion/Chest-CT-Scan-data
+  mlflow_uri: https://dagshub.com/natek-1/Chest-CT-Scan-Classification.mlflow
 
 
