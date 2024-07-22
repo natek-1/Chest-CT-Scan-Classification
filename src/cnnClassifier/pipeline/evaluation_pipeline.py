@@ -16,7 +16,7 @@ class EvaluationPipeline:
         config = ConfigManager()
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(eval_config)
-        evaluation.login_mlflow()
+        #evaluation.login_mlflow()
         evaluation.save_score()
 
 if __name__ == '__main__':
