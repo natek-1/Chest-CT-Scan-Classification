@@ -6,6 +6,7 @@ from cnnClassifier.logger import logging
 from cnnClassifier.exception import CustomException
 
 
+
 STAGE_NAME = "Evaluation stage"
 
 class EvaluationPipeline:
@@ -16,7 +17,7 @@ class EvaluationPipeline:
         config = ConfigManager()
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(eval_config)
-        #evaluation.login_mlflow()
+        evaluation.login_mlflow()
         evaluation.save_score()
 
 if __name__ == '__main__':
