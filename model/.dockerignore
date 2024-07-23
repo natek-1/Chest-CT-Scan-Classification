@@ -1,0 +1,8 @@
+.github/
+.jenkins/
+artifacts/
+logs/
+notebooks/
+venv/
+mlruns/
+
